@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#upper_nav {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  list-style: none;
+  background-color: #3B2C39;
+}
+
+#upper_nav li {
+  float: left;
+  position: relative;
+}
+
+#upper_nav li a {
+  display: block;
+  color: #10D6EA;
+  font-size: 2em;
+  padding: 10px 15px;
+}
+
+#upper_nav li:hover a {
+  background-color: #703869;
+}
+
+#upper_nav li ul {
+  list-style: none;
+  display: none;
+  position: absolute;
+  width: 700px;
+}
+
+#upper_nav li:hover ul {
+  display: block;
+}
